@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Environment secrets
+.env
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Large raw datasets (avoid uploading 300MB CSV to Git)
+dataset/*.csv
+!dataset/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test reports
+.pytest_cache/
+.coverage
+htmlcov/

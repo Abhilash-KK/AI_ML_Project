@@ -1,0 +1,74 @@
+{
+    "model_name": "Logistic Regression with TF-IDF",
+    "dataset": "Amazon Fine Food Reviews",
+    "total_samples": 60000,
+    "training_samples": 48000,
+    "testing_samples": 12000,
+    "accuracy": 0.6877,
+    "precision_macro": 0.6859,
+    "recall_macro": 0.6877,
+    "f1_score_macro": 0.6867,
+    "precision_weighted": 0.6859,
+    "recall_weighted": 0.6877,
+    "f1_score_weighted": 0.6867,
+    "class_labels": [
+        "Negative",
+        "Neutral",
+        "Positive"
+    ],
+    "classification_report": {
+        "Negative": {
+            "precision": 0.6936870547776959,
+            "recall": 0.706,
+            "f1-score": 0.6997893693470449,
+            "support": 4000.0
+        },
+        "Neutral": {
+            "precision": 0.6058946270213876,
+            "recall": 0.58075,
+            "f1-score": 0.5930559101353077,
+            "support": 4000.0
+        },
+        "Positive": {
+            "precision": 0.7582417582417582,
+            "recall": 0.77625,
+            "f1-score": 0.7671402100061766,
+            "support": 4000.0
+        },
+        "accuracy": 0.6876666666666666,
+        "macro avg": {
+            "precision": 0.6859411466802806,
+            "recall": 0.6876666666666668,
+            "f1-score": 0.6866618298295096,
+            "support": 12000.0
+        },
+        "weighted avg": {
+            "precision": 0.6859411466802806,
+            "recall": 0.6876666666666666,
+            "f1-score": 0.6866618298295097,
+            "support": 12000.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            2824,
+            894,
+            282
+        ],
+        [
+            969,
+            2323,
+            708
+        ],
+        [
+            278,
+            617,
+            3105
+        ]
+    ],
+    "class_distribution": {
+        "Negative": 20000,
+        "Neutral": 20000,
+        "Positive": 20000
+    }
+}
